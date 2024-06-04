@@ -1,0 +1,54 @@
+{
+  "genres": {
+    "rock": [
+      {
+        "artistName": "All My Friends Hate Me",
+        "songName": "Blood",
+        "songCoverPhoto": "../resources/musicCover/rock/song1.jpg",
+        "songSrc": "../resources/music/rock/song1.mp3"
+      },
+      {
+        "artistName": "Radio Nowhere",
+        "songName": "Molotov Heart",
+        "songCoverPhoto": "../resources/musicCover/rock/song2.jpg",
+        "songSrc": "../resources/music/rock/song2.mp3"
+      }
+    ],
+    "popmusic": [
+      {
+        "artistName": "Weathered pages",
+        "songName": "Don't Give Up",
+        "songCoverPhoto": "../resources/musicCover/popMusic/song1.jpg",
+        "songSrc": "../resources/music/popMusic/song1.mp3"
+      },
+      {
+        "artistName": "Bessonn&sa",
+        "songName": "Bad Intenstions",
+        "songCoverPhoto": "../resources/musicCover/popMusic/song2.jpg",
+        "songSrc": "../resources/music/popMusic/song2.mp3"
+      }
+    ],
+    "indie": [
+      {
+        "artistName": "I.D.F.X",
+        "songName": "Like I Do",
+        "songCoverPhoto": "../resources/musicCover/indie/song1.jpg",
+        "songSrc": "../resources/music/indie/song1.mp3"
+      },
+      {
+        "artistName": "Tony Petersen",
+        "songName": "Think She Was Right",
+        "songCoverPhoto": "../resources/musicCover/indie/song2.jpg",
+        "songSrc": "../resources/music/indie/song2.mp3"
+      }
+    ],
+    "folk": [
+      {
+        "artistName": "ACOUSTIC ASTRONAUT",
+        "songName": "Destruction Mill ",
+        "songCoverPhoto": "../resources/musicCover/folk/song1.jpg",
+        "songSrc": "../resources/music/folk/song1.mp3"
+      }
+    ]
+  }
+}
