@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Music Player</title>
-    <link rel="stylesheet" href="stylesheet.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
@@ -12,6 +11,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="stylesheet.css" />
+
     <script type="module" src="script.js" defer></script>
   </head>
   <body>
@@ -44,16 +45,44 @@
       </section>
 
       <section class="container" id="playPanel">
-        <section class="about-song">
+        <div class="about-song">
           <img id="songImage" src="" alt="Song Image" />
           <p id="songName"></p>
           <p id="artistName"></p>
-        </section>
-
-        <section class="song-player"></section>
+        </div>
+        <div class="song-player">
+          <audio id="songPlay" controls src=""></audio>
+        </div>
+        <div id="changeSongBtn">
+          <button id="prevBtn">
+            <i class="fa-solid fa-left-long"></i>
+          </button>
+          <button id="nextBtn">
+            <i class="fa-solid fa-right-long"></i>
+          </button>
+        </div>
+        <div id="playListAddOption">
+          <button id="addPlaylist">
+            <i class="fa-solid fa-file-circle-plus"></i>
+          </button>
+          <h4>Add To Playlist</h4>
+        </div>
       </section>
 
-      <section class="container" id="playListPanel"></section>
+      <section class="container" id="playListPanel">
+        <div class="input-container">
+          <input
+            type="text"
+            id="playlistInput"
+            placeholder="Add Playlist Name"
+          />
+          <button id="addButton">Add</button>
+        </div>
+        <h2 id="playListNameShow">Current Playlist</h2>
+        <ul id="playlistSong"></ul>
+        <h2>All Playlist</h2>
+        <ul id="playList"></ul>
+      </section>
     </main>
   </body>
 </html>
